@@ -1,0 +1,97 @@
+html{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    font-family: "Open Sans", sans-serif;
+    max-width: 100%;
+}
+
+.cabecalho{
+    padding: 15px;
+}
+.cabecalho .logo{
+    margin: 30px 50px; 
+    width: 200px;
+}
+
+
+ .container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-container{
+    display: flex;
+    padding: 45px;
+    margin-left: 20px;
+}
+
+.container .card-container img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.informacoes{
+    color: #ffff;
+    width: 100%;
+    align-items: center;
+    margin-top: 90px;
+
+}
+
+.informacoes h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.informacoes p {
+    font-size: 18.5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+
+.container .informacoes .botao{
+    background-color: #ffff;
+    color: hsl(257, 40%, 49%);
+    font-family: "Poppins", sans-serif;	
+    font-weight: 400;
+    display: block;
+    border-radius: 100px;
+    width: 185px;
+    height: 43px;
+    padding: 8px 58px;
+
+}
+
+.container .informacoes .botao:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #ffff;
+    transition: 0.3s ease-in-out;
+}
+
+footer {
+    text-align: end;
+    padding: 20px 30px;
+}
+.social a i{
+    border: 1px solid white ;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    transition: 0.3s ease-out;
+}
+
+.social a i:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
