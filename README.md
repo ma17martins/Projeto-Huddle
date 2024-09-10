@@ -12,12 +12,12 @@ My biggest difficulty was making it responsive.
 
 - Desktop:
 
-<img src="./projeto-huddle-base/src/images/Animação-desktop.gif">
+[<img src="./src/images/Animação-desktop.gif">](https://github.com/ma17martins/Projeto-Huddle)
 
 
 - Mobile:
 
-<img src="./projeto-huddle-base/src/images/Animação.gif" alt="gif tela registro">
+[<img src="./src/images/Animação.gif">](https://github.com/ma17martins/Projeto-Huddle)
 
 ## Technologies used
 
